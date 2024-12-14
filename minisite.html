@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Mini Site</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbf3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    background-color: #ffdce5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 13px #d53963;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #db349b;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ec9eb285;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #db3482;
+    color: #ffc2c2;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .links a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="pefil.jpg" alt="Sua Foto" class="profile-image">
+            <h1>Seu Nome</h1>
+            <p>Desenvolvedor Web | Criador de Conteúdo</p>
+        </header>
+        
+        <section class="links">
+            <h2>Meus Links</h2>
+            <ul>
+                <li><a href="https://www.seusite.com" target="_blank">Seu Site</a></li>
+                <li><a href="https://www.linkedin.com/in/seuperfil" target="_blank">&#xF472</a></li>
+                <li><a href="https://github.com/seuperfil" target="_blank">&#xF3ED;</a></li>
+                <li><a href="mailto:seuemail@example.com" target="_blank">Contato</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Seu Nome</p>
+        </footer>
+    </div>
+</body>
+</html>
